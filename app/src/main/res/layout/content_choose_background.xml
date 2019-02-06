@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ChooseBackground"
+    tools:showIn="@layout/activity_choose_background">
+
+    <ImageView
+        android:id="@+id/superMoon"
+        android:layout_width="168dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="255dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/JESSUS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/supermoon" />
+
+    <ImageView
+        android:id="@+id/JESSUS"
+        android:layout_width="177dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/superMoon"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/waterfall" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="39dp"
+        android:text="Click on the background you would like."
+        app:layout_constraintBottom_toTopOf="@+id/superMoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

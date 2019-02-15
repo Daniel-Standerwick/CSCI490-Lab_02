@@ -1,4 +1,9 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">IntentDemo</string>
     <string name="title_activity_choose_background">ChooseBackground</string>
+=======
+    <string name="app_name">Lab02</string>
+    <string name="button_name">Set Background</string>
+>>>>>>> origin/solution
 </resources>

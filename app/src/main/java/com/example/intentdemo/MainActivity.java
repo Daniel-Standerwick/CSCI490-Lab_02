@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), ChooseBackground.class);
-                startActivity(i);
+                startActivity(i); //StartActivityForResult(i, INTVAL);
             }
         });
     }

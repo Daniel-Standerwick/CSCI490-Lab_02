@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.intentdemo">
+=======
+    package="com.stingersof.lab02">
+>>>>>>> origin/solution
 
     <application
         android:allowBackup="true"
@@ -9,10 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity
             android:name=".ChooseBackground"
             android:label="@string/title_activity_choose_background"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+=======
+>>>>>>> origin/solution
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+        <activity android:name=".TwoActivity">
+        </activity>
+>>>>>>> origin/solution
     </application>
 
 </manifest>
